@@ -1,4 +1,6 @@
+#Read README before this to learn how to use it
 def ReplaceChar(var, pos, replacement):
-  list(var)
-  var[pos] = replacement
-  str(var)
+  var = list(var);
+  var[pos] = replacement;
+  var = str(var);
+  return var;
